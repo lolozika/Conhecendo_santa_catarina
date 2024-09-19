@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Simulação de Navegação</title>
+</head>
+
+<body>
+    <center>
+        <br>
+        <div id="page1" class="page active">
+            <h1>Conhecendo Pontos <br> de <br> Santa Catarina</h1>
+            <br>
+            <img src="https://www.passagenspromo.com.br/blog/wp-content/uploads/2019/12/Praias-de-Santa-Catarina-1.jpg"
+                width="850px" height="590px" alt="">
+            <br>
+            <br>
+            <button onclick="showPage('page2')">Serra do Rio do Rastro </button>
+            <button onclick="showPage('page3')">Parque Unipraias</button>
+        </div>
+
+
+        <div id="page2" class="page">
+            <h1>Serra do Rio do Rastro</h1>
+            <br>
+            <img src="https://img.nsctotal.com.br/wp-content/uploads/2024/05/Serra-do-Rio-do-Rastro-estara-temporariamente-interditada-5.jpg"
+                alt="">
+            <br>
+            <br>
+            <p>A serra do Rio do Rastro é uma das serras de Santa Catarina, localizada no sul do estado. É cortada pela
+                rodovia SC-390. Com muitas matas e cachoeiras, <br>é um dos cartões-postais do estado. Localiza-se no
+                município de Lauro Müller, a mais de 1421 metros de altitude.</p>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a página Principal</button>
+            <button onclick="showPage('page4')">Ver algumas paisagens!!!</button>
+        </div>
+
+
+        <div id="page3" class="page">
+            <h1>Parque Unipraias</h1>
+            <br>
+            <img src="https://unipraias.com.br/assets/img/Mapa_Unipraias_Aberto-com-Legenda%20(1).jpg" width="850px"
+                height="590px" alt="">
+            <br>
+            <br>
+            <p>Os bondinhos conduzem os visitantes por este parque arborizado com mirantes, tirolesas e trenós radicais.
+            </p>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+            <button onclick="showPage('page5')">Ver algumas paisagens!!!</button>
+        </div>
+
+
+        <div id="page4" class="page">
+            <h1>Paisagens da Serra do Rio do Rastro</h1>
+            <br>
+            <div id="riorastro">
+                <img src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/dadd8oqv/efe/7nk/tnd/O-que-fazer-na-Serra-do-Rio-do-Rastro.jpg"
+                    width="350px" height="290px" alt="">
+                <img src="https://static.wixstatic.com/media/69eb05_2687665295f446fe86a085ba293f1bdd~mv2.jpg/v1/fill/w_560,h_376,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/69eb05_2687665295f446fe86a085ba293f1bdd~mv2.jpg"
+                    width="350px" height="290px" alt="">
+                <br><br>
+                <img src="https://destinosnotaveis.com.br/wp-content/uploads/2022/08/Serra_do_Rio_do_Rastro.jpg"
+                    width="350px" height="290px" alt="">
+                <img src="https://vidadeturista.com/wp-content/uploads/2016/02/serra-do-rio-do-rastro-sc.jpg"
+                    width="350px" height="290px" alt="">
+            </div>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+        </div>
+
+
+        <div id="page5" class="page">
+            <h1>Paisagens do Parque Unipraias</h1>
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztpdoWawEb3PHcAjR8d7PsVjpVidSZv5O7Q&s"
+                width="350px" height="290px" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwQLN1IDIRvYbpGEtgAPg_zzLZU8w8vtCU7A&s"
+                width="350px" height="290px" alt="">
+            <br><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3JL1HqMxV2TJ1OhEPBtYeW_IWUced9PkeQ&s"
+                width="350px" height="290px" alt="">
+            <img src="https://www.jopaviturismo.com.br/admin/image/pacote/8/6-3mvthumb.jpg" width="350px" height="290px"
+                alt="">
+            <br><br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+        </div>
+    </center>
+</body>
+
+</html>
